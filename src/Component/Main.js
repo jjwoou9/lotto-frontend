@@ -3,6 +3,7 @@ import axios from "axios";
 import { DropdownButton, Dropdown } from "react-bootstrap";
 import { GNBDiv, FooterDiv } from "../Style/MainCSS.js";
 import List from "./List";
+import Most from "./Most";
 
 function Main() {
 
@@ -25,8 +26,10 @@ function Main() {
 
     return (
         <div>
-            MAIN MAIN
+
             <List lottoList={lottoList} />
+
+            <Most />
         </div>
     );
 }

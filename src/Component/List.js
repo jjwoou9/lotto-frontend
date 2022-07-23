@@ -30,7 +30,7 @@ function List(props) {
                         <Col className='lotto-col' >{lotto.fourth}</Col>
                         <Col className='lotto-col' >{lotto.fifth}</Col>
                         <Col className='lotto-col' >{lotto.sixth}</Col>
-                        <Col className='lotto-col' >{lotto.bounus}</Col>
+                        <Col className='lotto-col' >{lotto.bonus}</Col>
                     </Row>
                 );
             })}

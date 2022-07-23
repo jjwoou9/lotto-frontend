@@ -11,7 +11,29 @@ function Heading() {
                 <Navbar.Brand href="/">로또 당첨되게 해주세요</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Link
+                            to="/"
+                            style={{
+                                color: "white",
+                                textDecoration: "none",
+                                marginRight: "10px",
+                            }}
+                        >
+                            Home
+                        </Link>
 
+                        <Link
+                            to="/upload"
+                            style={{
+                                color: "white",
+                                textDecoration: "none",
+                                marginRight: "10px",
+                            }}
+                        >
+                            upload
+                        </Link>
+                    </Nav>
                 </Navbar.Collapse>
                 <Navbar.Collapse className="justify-content-end">
 

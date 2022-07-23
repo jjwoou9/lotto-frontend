@@ -20,7 +20,8 @@ const ListDiv = styled.div`
   .lotto-col {
       border: 1px solid;
       width: 80%;
-  }
+  }  
+
 `;
 
 
